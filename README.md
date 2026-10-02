@@ -34,3 +34,4 @@ To write and test this project, I used the following development tools:
 - Add a save/load feature so players can save their game and continue later.
 - Add colored text to the console to make the story feel more immersive.
 - Add sounds and effects to make the story feel more exciting.
+- Save more than one game session in the log text file and create a line stating how many times the game was played.
