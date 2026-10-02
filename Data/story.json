@@ -1,0 +1,106 @@
+[
+  {
+    "Id": "1",
+    "Text": "It's a hot summer night. You are playing soccer with your friends when a bad kick sends the ball into the yard of the scariest house in the neighborhood, a dark place everyone whispers strange rumors about.",
+    "Options": [
+      {
+        "Text": "Knock on the front door to ask for the ball.",
+        "TargetId": "2A"
+      },
+      {
+        "Text": "Climb the side wall to sneak in quietly and look for it yourself.",
+        "TargetId": "2B"
+      }
+    ]
+  },
+  {
+    "Id": "2A",
+    "Text": "You knock several times, but nobody answers. The silence inside the house is absolute, and the door remains shut.",
+    "Options": [
+      {
+        "Text": "Try the door handle and attempt to open the main gate.",
+        "TargetId": "3A"
+      },
+      {
+        "Text": "Give up on the door and climb the side wall.",
+        "TargetId": "2B"
+      }
+    ]
+  },
+  {
+    "Id": "2B",
+    "Text": "You climb the wall and drop into the dark yard, landing directly on a pile of old cans that make a loud crash in the middle of the night.",
+    "Options": [
+      {
+        "Text": "Panic overcomes you: climb back over the wall immediately to return to the street.",
+        "TargetId": "3B"
+      },
+      {
+        "Text": "Duck into the shadows and stay completely still to see what happens.",
+        "TargetId": "3C"
+      }
+    ]
+  },
+  {
+    "Id": "3A",
+    "Text": "As you push the door, the hinge creaks and the raspy voice of an old woman echoes from the darkness: 'Who goes there? Who entered my property?'.",
+    "Options": [
+      {
+        "Text": "Answer firmly saying you only entered to recover your soccer ball.",
+        "TargetId": "4A"
+      },
+      {
+        "Text": "Stay silent, run into the yard, and desperately look for the ball.",
+        "TargetId": "4B"
+      }
+    ]
+  },
+  {
+    "Id": "3B",
+    "Text": "Your friends see you return empty-handed, mock you, call you a coward, and pressure you to go back inside.",
+    "Options": [
+      {
+        "Text": "Ignore the taunts, tell them it's not worth it, and go home. [GAME OVER: You lost the ball!]",
+        "TargetId": "FIN"
+      },
+      {
+        "Text": "Your pride wins out: you gather courage and go knock on the front door.",
+        "TargetId": "2A"
+      }
+    ]
+  },
+  {
+    "Id": "3C",
+    "Text": "A tall, hunched old woman holding a huge kitchen knife steps out of the house. Despite her age, she moves quickly and looks around searching for the source of the noise.",
+    "Options": [
+      {
+        "Text": "Run toward the ball believing you are faster, grab it, and try to climb the wall.",
+        "TargetId": "4C"
+      },
+      {
+        "Text": "Terror paralyzes you: turn around and climb the wall to flee to the street.",
+        "TargetId": "3B"
+      }
+    ]
+  },
+  {
+    "Id": "4A",
+    "Text": "You respectfully explain the situation. The old woman says nothing, steps inside for a second, and returns with your soccer ball... completely popped. She smiles eerily while holding the knife and whispers: 'Take your ball. Don't let it fall here again.'\n\n[GAME OVER: You lost the ball!]",
+    "Options": []
+  },
+  {
+    "Id": "4B",
+    "Text": "While searching blindly in the yard, the sound of a opening door stops you dead in your tracks...",
+    "Options": [
+      {
+        "Text": "Look toward the door",
+        "TargetId": "3C"
+      }
+    ]
+  },
+  {
+    "Id": "4C",
+    "Text": "Your reflexes don't fail you. You run, grab the ball, and vault over the wall in one swift motion. Looking back from the top, you see the old woman barely coming down the porch steps; her agility couldn't help her with the stairs.\n\n[END: Victory! You recovered the ball!]",
+    "Options": []
+  }
+]

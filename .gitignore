@@ -1,0 +1,16 @@
+## Binaries and build output
+[Bb]in/
+[Bb]og/
+[Oo]bj/
+out/
+
+## User-specific files and IDE configurations
+.vs/
+.vscode/
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+
+## Project specific runtime output files
+game_log.txt
